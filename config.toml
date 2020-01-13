@@ -25,7 +25,7 @@ unsafe = true  # enable raw HTML in Markdown
 style = "light"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
 dateFormat = "Monday, January 2, 2006"  # if unset, default is "2006-01-02"
 logo = ""  # if you have a logo png
-slogan = "100% JavaScript-free"
+slogan = ""
 license = ""  # CC License
 
 [params.comments]
@@ -51,5 +51,5 @@ title = "About"
 url = "/about"
 
 [[params.nav.custom]]
-title = "Githug"
+title = "Github"
 url = "https://github.com/vasthav"
