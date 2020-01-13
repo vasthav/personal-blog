@@ -12,7 +12,9 @@ enableRobotsTXT = true
 disqusShortname = "vasthav"
 
 # Google Analytics
-#googleAnalytics = "UA-123-45"
+googleAnalytics = "UA-84213835-1"
+
+staticDir = ["static"]
 
 [markup.highlight]
 codeFences = true
