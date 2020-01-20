@@ -7,6 +7,10 @@ languageCode = "en-us"
 hasCJKLanguage = false
 
 enableRobotsTXT = true
+enableInlineShortcodes = true
+enableEmoji = true
+paginate = 10
+summaryLength = 50
 
 # Enable Disqus
 disqusShortname = "vasthav"

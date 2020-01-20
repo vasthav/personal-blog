@@ -6,8 +6,15 @@ single: false  # display as a single page, hide navigation on bottom, like as ab
 draft: false
 ---
 
-Hello I am Vasthav. 
+{{< figure src="/pro-pic.JPG" height="400px" >}}
 
-Data scientist, ML enthusisast, entreprenuer.
+# Hello! I am Sreevasthavan. :wave:
 
-I loves anything new and creative.
+I am a Data Scientist, Entrepreneur, Freelancer, Traveller and motorcycle Enthusiast.
+
+I build and optimise cool chatbots which help customers with personalized experience with products like financial product recommendations.
+
+I would love to hear from you for any cool freelance project or collaborations.
+[Contact me](mailto:sreevasthavan@gmail.com).
+
+Check out my [linkedin](https://linkedin.com/in/sreevasthavan) or [instagram](https://instagram.com/vasthav).
