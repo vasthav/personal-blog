@@ -1,7 +1,7 @@
 ---
 title: "Fossmeet 2016 at Nit Calicut"
 date: 2016-10-20T12:52:49+05:30
-imgs: [/static/yakkety-yak2.jpg]
+imgs: [/fossmeet.jpg]
 lastmod: 2020-01-13T19:22:31+05:30
 tags: [Fossmeet 2016, NIT Calicut]
 categories: [Article]
