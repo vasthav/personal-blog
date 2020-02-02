@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2019 Vasthav.</copyright>
-    <lastBuildDate>Thu, 20 Oct 2016 12:52:49 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 03 Feb 2020 00:46:07 +0530</lastBuildDate>
     
         <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>digitalNomad</title>
+      <link>/tags/digitalnomad/</link>
+      <pubDate>Mon, 03 Feb 2020 00:46:07 +0530</pubDate>
+      
+      <guid>/tags/digitalnomad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>distributedTeams</title>
+      <link>/tags/distributedteams/</link>
+      <pubDate>Mon, 03 Feb 2020 00:46:07 +0530</pubDate>
+      
+      <guid>/tags/distributedteams/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>remoteJob</title>
+      <link>/tags/remotejob/</link>
+      <pubDate>Mon, 03 Feb 2020 00:46:07 +0530</pubDate>
+      
+      <guid>/tags/remotejob/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Fossmeet 2016</title>

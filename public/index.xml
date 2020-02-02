@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2019 Vasthav.</copyright>
-    <lastBuildDate>Thu, 20 Oct 2016 12:52:49 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 03 Feb 2020 00:46:07 +0530</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Posts</title>
       <link>/posts/</link>
-      <pubDate>Thu, 20 Oct 2016 12:52:49 +0530</pubDate>
+      <pubDate>Mon, 03 Feb 2020 00:46:07 +0530</pubDate>
       
       <guid>/posts/</guid>
       <description></description>
@@ -37,9 +37,9 @@ Go Home.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>Hello! I am Sreevasthavan. 👋 I am a Data Scientist, Entrepreneur, Freelancer, Traveller and Motorcycle Enthusiast.
+      <description>Hello! I am Sreevasthavan. 👋 I am a Data Scientist, Entrepreneur, Traveller and Motorcycle Enthusiast.
 I build and optimise cool chatbots which help customers have personalized experience while finding products from financial product recommendations.
-I would love to hear from you for any cool freelance project or collaborations.</description>
+I would love to hear from you for any cool projects or collaborations. Contact me.</description>
     </item>
     
   </channel>
