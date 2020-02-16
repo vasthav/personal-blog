@@ -7,10 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2019 Vasthav.</copyright>
-    <lastBuildDate>Mon, 03 Feb 2020 00:46:07 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 15 Feb 2020 16:53:48 +0530</lastBuildDate>
     
         <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>diary</title>
+      <link>/tags/diary/</link>
+      <pubDate>Sat, 15 Feb 2020 16:53:48 +0530</pubDate>
+      
+      <guid>/tags/diary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>letter</title>
+      <link>/tags/letter/</link>
+      <pubDate>Sat, 15 Feb 2020 16:53:48 +0530</pubDate>
+      
+      <guid>/tags/letter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>letter to self</title>
+      <link>/tags/letter-to-self/</link>
+      <pubDate>Sat, 15 Feb 2020 16:53:48 +0530</pubDate>
+      
+      <guid>/tags/letter-to-self/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>personal</title>
+      <link>/tags/personal/</link>
+      <pubDate>Sat, 15 Feb 2020 16:53:48 +0530</pubDate>
+      
+      <guid>/tags/personal/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>digitalNomad</title>
