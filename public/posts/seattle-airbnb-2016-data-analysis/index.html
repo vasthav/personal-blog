@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en"><meta charset="utf-8"><meta name="generator" content="Hugo 0.62.2" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark">
+
+<script data-ad-client="ca-pub-8668142275730911" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><title>Finding price trends and top neighbourhoods for affordable stays using Seattle Airbnb data&nbsp;&ndash;&nbsp;Vasthav&#39;s Blog</title><link rel="stylesheet" href="/css/core.min.a19cc6785b28b911e3b379413913a197046efc17dccbdd56319471763fe29e408fcfe47112584eee236f7fbcedfac9e3.css" integrity="sha384-oZzGeFsouRHjs3lBOROhlwRu/Bfcy91WMZRxdj/inkCPz&#43;RxElhO7iNvf7zt&#43;snj"><body>
+    <div class="base-body"><section id="header" class="site header max-body-width">
+    <div class="header wrap"><span class="header left-side"><a class="site home" href="/"><span class="site name">Vasthav's Blog</span></a></span>
+        <span class="header right-side"><div class="nav wrap"><nav class="nav"><a class="nav item" href="/categories/">Categories</a><a class="nav item" href="/tags/">Tags</a><a class="nav item" href="/about">About</a><a class="nav item" href="https://github.com/vasthav"target="_blank">Github</a></nav></div></span></div></section><div id="content" class="max-body-width"><section class="article header">
+    <h1 class="article title">Finding price trends and top neighbourhoods for affordable stays using Seattle Airbnb data</h1><p class="article date">Sunday, March 29, 2020<span class="reading-time"> • 6 minutes to read</span></p></section><article class="article markdown-body"style="text-align: justify;"><p><a target="_blank" rel="noopener noreferrer" 
+  href="/SeattleAirBnB/kelsey-dody-mt2QzllH814-unsplash.jpg"><img  src="/SeattleAirBnB/kelsey-dody-mt2QzllH814-unsplash.jpg"
+        alt="Living Room image"/></a>
+<a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@kelseydody?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Kelsey Dody"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Photo by Kelsey Dody on Unsplash</span></a></p>
+<h1 id="introduction">Introduction</h1>
+<p>As part of the <a href="https://www.udacity.com/course/data-scientist-nanodegree--nd025"target="_blank">Udacity - Data Science Nano Degree program</a> I recently completed a task where I had to use a given data set, analyse it and ask between 3-5 questions related to the business or real-world context of the data. And then each question must be answered with appropriate visualization, table, or statistic. This blog post will present the final conclusions I came up with after the analysis.</p>
+<h2 id="a-note-on-the-data-set">A note on the Data Set</h2>
+<p>The Data set I chose for this task was <a href="https://www.kaggle.com/airbnb/seattle/data"target="_blank"><em>Seattle Airbnb Open Data</em></a> which is an open data set provided by Airbnb. Since 2008, guests and hosts have used Airbnb to travel in a more unique, personalized way. As part of the Airbnb Inside initiative, this dataset describes the listing activity of homestays in Seattle, WA.</p>
+<h4 id="content">Content</h4>
+<p>The following Airbnb activity is included in this Seattle dataset:</p>
+<pre><code>- Listings: including full descriptions and average review score
+- Reviews: including unique id for each reviewer and detailed comments
+- Calendar: including listing id and the price and availability for that day
+</code></pre>
+<h2 id="questions-i-was-interested-in">Questions I was interested in</h2>
+<p>The immediate questions that come to a traveller using any homestay service are cost and quality of stay that he is going to get. And what better way to understand the quality of stays than the review of thousands of users who used the service itself. And we were in luck as the data set provided information on both fronts. The calendar data provided all the pricing and availability info of the different Airbnb properties across the year. Whereas the Listings data provided comprehensive information about the listed property from address, specialities of the property, services offered, ratings etc. So the questions I come up with were:</p>
+<h3 id="1-are-there-any-general-trends-in-pricing-across-the-year">1. Are there any general trends in pricing across the year?</h3>
+<p>This question is relevant for both the business and for the fellow travellers who use the service. For a business, this shows a trend that they can study more closely and optimise based on seasonality. For fellow travellers, this gives them a good sense of the time of the year when they can get affordable homestays and plan accordingly.</p>
+<p>This was pretty straight forward. To answer this I used the calendar data and grouped the data according to date and calculated the mean of the listed property prices. And later plotted on a graph to see the trend.</p>
+<p><a target="_blank" rel="noopener noreferrer" 
+  href="/SeattleAirBnB/pricing-graph.png"><img  src="/SeattleAirBnB/pricing-graph.png"
+        alt="Seattle pricing Graph"/></a></p>
+<p>Some observations from the graph:</p>
+<pre><code>1. lowest prices in January until March.
+2. Peak prices in July until August
+3. Prices increase from January till August and then decreases to an average price by December.
+</code></pre>
+<p>Based on these observations we can see that the prices did have a steady trend. The prices are the lowest in January till March and slowly increases until July - August which is peak pricing. Then it drops to average pricing by December. So we can safely say the most affordable time of year to book Seattle Airbnb is during January - March. And the costliest time of the year when the prices are the highest is during July - August.</p>
+<h3 id="2-which-part-of-seattle-neighbourhood-has-the-highest-review-score-rating-using-listing-descriptions">2. Which part of Seattle neighbourhood has the highest review score rating using listing descriptions?</h3>
+<p>The listings data provides a well-cleaned column of neighbourhood details which is extracted and cleaned to give a set of neighbourhood values. Also, the listings data has data about the average review scores on different factors like a score for cleanliness, check-in score, a score for location, aggregate score etc. For the purpose of this question, I chose the aggregate score of all the users for an individually listed property.</p>
+<p>I grouped the data according to the neighbourhood and calculated the mean review scores of the listed property. And took the top 5 neighbourhood names from the sorted scores list. Which again was pretty straightforward given the really cool pandas functions.</p>
+<div class="highlight"><pre class="chroma"><code class="language-python3" data-lang="python3"><span class="c1">### Analysing the neighbourhood wise data</span>
+
+<span class="c1"># Finding the top neighbourhood based on review scores.</span>
+<span class="n">top_neighbourhood</span> <span class="o">=</span> <span class="n">listings</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">neighbourhood_group_cleansed</span><span class="s1">&#39;</span><span class="p">)</span><span class="p">[</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">review_scores_rating</span><span class="s1">&#39;</span><span class="p">]</span> \
+                    <span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="p">)</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="p">)</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">neighbourhood_group_cleansed</span><span class="s1">&#39;</span><span class="p">)</span> \
+                    <span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">review_scores_rating</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">top_neighbourhood</span> <span class="o">=</span> <span class="n">top_neighbourhood</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+
+</code></pre></div><p>Top 5 neighbourhood in Seattle based on review scores were:</p>
+<pre><code>1. Central Area
+2. West Seattle
+3. Delridge
+4. Ballard
+5. Queen Anne
+</code></pre>
+<p>As travellers will be most probably seeing properties on a map before making decisions based on different factors like amenities nearby and places to visit etc. I thought of plotting the areas in a graph and respective properties in a map. An amazing library called &ldquo;<a href="https://geopandas.org/"target="_blank"><em>Geopandas</em></a>&rdquo; came for the rescue. I used the <a href="https://data-seattlecitygis.opendata.arcgis.com/datasets/seattle-streets"target="_blank">Seattle City Open Data</a> to get the shapefile used for creating the maps used for this task. You can see the plotted map below.</p>
+<p><a target="_blank" rel="noopener noreferrer" 
+  href="/SeattleAirBnB/top-neighbourhood.png"><img  src="/SeattleAirBnB/top-neighbourhood.png"
+        alt="Top neighbourhood in Seattle based on review scores map"/></a>
+<a target="_blank" rel="noopener noreferrer" 
+  href="/SeattleAirBnB/top-neighborhood-legend.png"><img  src="/SeattleAirBnB/top-neighborhood-legend.png"
+        alt="Top neighbourhood in Seattle based on review scores map Legend"/></a></p>
+<p>We can see that southern western Seattle which included neighbourhoods like West Seattle and Delridge is highly rated by customers.</p>
+<h3 id="3-which-are-the-top-5-costliest-and-cheapest-seattle-neighbourhood">3. Which are the top 5 costliest and cheapest Seattle neighbourhood?</h3>
+<p>This was a little tricky as we had to use both pricing details from the calendar data set and neighbourhood details from listings data set. I merged this data based on listing ids and the grouped based on neighbourhood names and took the mean of the prices. After sorting and taking the top 5 will give us the cheapest and bottom half will give us the names of costliest neighbourhoods in Seattle. Based on the analysis:</p>
+<ul>
+<li>
+<p>Top 5 Costliest Neighbourhood in Seattle</p>
+<pre><code>  1. Magnolia
+  2. Downtown
+  3. Queen Anne
+  4. Cascade
+  5. West Seattle
+</code></pre>
+</li>
+<li>
+<p>Top 5 Cheapest Neighbourhood in Seattle</p>
+<pre><code>  1. Delridge
+  2. Northgate
+  3. Lake City
+  4. Rainier Valley
+  5. Beacon Hill
+</code></pre>
+</li>
+</ul>
+<p>Using geopandas to plot the neighbourhood on the graphs we get the below graphs.</p>
+<hr>
+<p><a target="_blank" rel="noopener noreferrer" 
+  href="/SeattleAirBnB/cheapest-neighbourhood.png"><img  src="/SeattleAirBnB/cheapest-neighbourhood.png"
+        alt="Top 5 costliest neighbourhood in Seattle based map"/></a>
+<a target="_blank" rel="noopener noreferrer" 
+  href="/SeattleAirBnB/cheapest-neighborhood-legend.png"><img  src="/SeattleAirBnB/cheapest-neighborhood-legend.png"
+        alt="Top 5 costliest neighbourhood in Seattle map Legend"/></a></p>
+<hr>
+<p><a target="_blank" rel="noopener noreferrer" 
+  href="/SeattleAirBnB/top-neighbourhood.png"><img  src="/SeattleAirBnB/top-neighbourhood.png"
+        alt="Top 5 costliest neighbourhood in Seattle based map"/></a>
+<a target="_blank" rel="noopener noreferrer" 
+  href="/SeattleAirBnB/costliest-neighborhood-legend.png"><img  src="/SeattleAirBnB/costliest-neighborhood-legend.png"
+        alt="Top 5 costliest neighbourhood in Seattle map Legend"/></a></p>
+<h2 id="conclusions">Conclusions</h2>
+<p>In this project, I tried to analyse Seattle Airbnb data to answer 3 questions that can help users and business equally.</p>
+<p>We saw a price trend in the property listing. The prices are the lowest in January till March and slowly increases until July - August which is peak pricing. Then it drops to average pricing by December. So we can safely say the most affordable time of year to book Seattle Airbnb is during January - March. And the costliest time of the year when the prices are the highest is during July - August.</p>
+<p>The top 5 rated places, based on user reviews, in Seattle, are Central Area, West Seattle, Delridge, Ballard and Queen Anne (in the decreasing ranking order).</p>
+<p>Top 5 Costliest Neighborhood (in the decreasing ranking order) in Seattle are Magnolia, Downtown, Queen Anne, Cascade and West Seattle.</p>
+<p>Top 5 Cheapest Neighborhood (in the decreasing ranking order) in Seattle are Delridge, Northgate, Lake City, Rainier Valley and Beacon Hill.</p>
+<p>Deducting from the above two points we can see, West Seattle and Queen Anne are two highly-rated places which are among the top 5 costliest neighbourhood in Seattle. Delridge is one of the highly-rated places which is among the top 5 cheapest neighbourhood in Seattle.</p>
+<hr>
+<p><strong>Disclaimer: Please note that the findings are observational and is particular to the given data set. In reality trends and rankings might be different.</strong></p>
+<p><em>To see more about this analysis, see the link to my <a href="https://github.com/vasthav/Seattle_AirBNB_data_analysis"target="_blank">Github available here</a>.</em></p>
+</article><section class="article labels"><a class="article category" href=/categories/article/><span class="hashtag">#</span>Article</a><a class="article tag" href=/tags/data-analysis/><span class="hashtag">#</span>Data Analysis</a></section><section class="article navigation"><p><a class="link" href="/posts/a-honest-letter-to-my-16-years-old-self/"><span class="li"></span>An Honest Letter to My 16 Year Old Self</a class="link">
+    </p></section><section class="article discussion"><div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "vasthav" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a></section></div><section id="footer" class="footer max-body-width"><div class="footer-wrap">
+    <p class="copyright">©2019 Vasthav.</p>
+    <p class="powerby"><span>Powered by </span><a href="https://gohugo.io" 
+        target="_blank">Hugo</a><span> and the </span><a href="https://themes.gohugo.io/hugo-notepadium/" 
+        target="_blank">Notepadium</a></p>
+</div></section>
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-84213835-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+</div>
+</body>
+
+</html>
