@@ -48,3 +48,7 @@ One of the biggest challenge working remotely is the isolation and disconnect th
 Allotting dedicated time to talk/share any things outside of work (like books, food, music, hobbies, personal project or anything you are excited about) helps you relax and bond with your team. Also gives you a feeling of connectedness and closeness. 
 
 Remember that every person is different and these are just guidelines and not rules. **Find out what works for you**. Be mindful and enjoy what you do and in time you will find your way.
+
+-----------------------------
+
+_Disclaimer: Some of the links above are affiliate links, meaning, at no additional cost to you, I will earn a commission if you click through and make a purchase. As an Amazon Associate I earn from qualifying purchases._

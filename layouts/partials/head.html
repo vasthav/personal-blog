@@ -6,6 +6,9 @@
 
 <script data-ad-client="ca-pub-8668142275730911" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
+<!-- Adding fonts - Literata and Lora -->
+<link href="https://fonts.googleapis.com/css2?family=Literata:ital@0;1&family=Lora&display=swap" rel="stylesheet">
+
 {{- define "title" -}}
     {{- $title := .Title -}}
     {{- if and (ne $title "") (ne $title site.Title) -}}
@@ -21,3 +24,7 @@
 
 {{- partial "style.html" . -}}
 {{- partial "rss-feed.html" . -}}
+
+{{ range .Site.Params.custom_css -}}
+    <link rel="stylesheet" href="{{ . | absURL }}">
+{{- end }}

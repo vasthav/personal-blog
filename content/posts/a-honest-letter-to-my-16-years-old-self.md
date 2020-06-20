@@ -36,3 +36,7 @@ And the most important point. Man, you are too serious sometimes. Smile. :blush:
 With love,
 
 Vasthav
+
+-----------------------------
+
+_Disclaimer: Some of the links above are affiliate links, meaning, at no additional cost to you, I will earn a commission if you click through and make a purchase. As an Amazon Associate I earn from qualifying purchases._

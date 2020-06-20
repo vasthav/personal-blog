@@ -10,11 +10,8 @@ comments: true
 justify: true  # text-align: justify;
 single: false  # display as a single page, hide navigation on bottom, like as about page.
 license: ""  # CC License
-draft: true
+draft: false
 ---
-
-![Living Room image](/SeattleAirBnB/kelsey-dody-mt2QzllH814-unsplash.jpg) 
-<a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@kelseydody?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Kelsey Dody"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Photo by Kelsey Dody on Unsplash</span></a>
 
 # Introduction
 
@@ -22,6 +19,9 @@ As part of the [Udacity - Data Science Nano Degree program](https://www.udacity.
 
 ## A note on the Data Set
 The Data set I chose for this task was [_Seattle Airbnb Open Data_](https://www.kaggle.com/airbnb/seattle/data) which is an open data set provided by Airbnb. Since 2008, guests and hosts have used Airbnb to travel in a more unique, personalized way. As part of the Airbnb Inside initiative, this dataset describes the listing activity of homestays in Seattle, WA. 
+
+![Living Room image](/SeattleAirBnB/kelsey-dody-mt2QzllH814-unsplash.jpg) 
+<a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@kelseydody?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Kelsey Dody"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Photo by Kelsey Dody on Unsplash</span></a>
 
 #### Content
 The following Airbnb activity is included in this Seattle dataset:
