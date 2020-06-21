@@ -1,30 +1,33 @@
-<meta charset="utf-8">
-{{- hugo.Generator -}}
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="color-scheme" content="light dark">
-<meta name="supported-color-schemes" content="light dark">
+<head>
+    <meta charset="utf-8">
+    {{- hugo.Generator -}}
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="color-scheme" content="light dark">
+    <meta name="supported-color-schemes" content="light dark">
 
-<script data-ad-client="ca-pub-8668142275730911" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- Google site verification -->
+    <meta name="google-site-verification" content="pC_uenrHqqWm7nMx7NaySPizLnO0R15AbZmrifdv7rM" />
 
-<!-- Adding fonts - Literata and Lora -->
-<link href="https://fonts.googleapis.com/css2?family=Literata:ital@0;1&family=Lora&display=swap" rel="stylesheet">
+    <!-- Google Ads Sense -->
+    <script data-ad-client="ca-pub-8668142275730911" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-{{- define "title" -}}
-    {{- $title := .Title -}}
-    {{- if and (ne $title "") (ne $title site.Title) -}}
-        <title>{{- $title | safeHTML -}} &nbsp;&ndash;&nbsp; {{- site.Title | safeHTML -}}</title>
-    {{- else -}}
-        {{- $slogan := site.Params.slogan -}}
-        <title>{{- site.Title | safeHTML -}}{{- if and (isset site.Params "slogan") (ne $slogan "") -}} &nbsp;&ndash;&nbsp;
-            {{- $slogan | safeHTML -}}{{- end -}}</title>
+    {{- define "title" -}}
+        {{- $title := .Title -}}
+        {{- if and (ne $title "") (ne $title site.Title) -}}
+            <title>{{- $title | safeHTML -}} &nbsp;&ndash;&nbsp; {{- site.Title | safeHTML -}}</title>
+        {{- else -}}
+            {{- $slogan := site.Params.slogan -}}
+            <title>{{- site.Title | safeHTML -}}{{- if and (isset site.Params "slogan") (ne $slogan "") -}} &nbsp;&ndash;&nbsp;
+                {{- $slogan | safeHTML -}}{{- end -}}</title>
+        {{- end -}}
     {{- end -}}
-{{- end -}}
 
-{{- block "title" . -}}{{- end -}}
+    {{- block "title" . -}}{{- end -}}
 
-{{- partial "style.html" . -}}
-{{- partial "rss-feed.html" . -}}
+    {{- partial "style.html" . -}}
+    {{- partial "rss-feed.html" . -}}
 
-{{ range .Site.Params.custom_css -}}
-    <link rel="stylesheet" href="{{ . | absURL }}">
-{{- end }}
+    {{ range .Site.Params.custom_css -}}
+        <link rel="stylesheet" href="{{ . | absURL }}">
+    {{- end }}
+</head>
