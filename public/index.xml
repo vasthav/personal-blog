@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vasthav&#39;s Blog</title>
+    <title>Vasthav</title>
     <link>/</link>
-    <description>Recent content on Vasthav&#39;s Blog</description>
+    <description>Recent content on Vasthav</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2019 Vasthav.</copyright>
