@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2019 Vasthav.</copyright>
-    <lastBuildDate>Sun, 29 Mar 2020 15:17:26 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jul 2020 17:09:44 +0530</lastBuildDate>
     
         <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Why We Need a Mental Shift to Overcome Covid Induced Anxiety</title>
+      <link>/posts/why-we-need-a-mental-shift-to-overcome-covid-induced-anxiety/</link>
+      <pubDate>Sun, 05 Jul 2020 17:09:44 +0530</pubDate>
+      
+      <guid>/posts/why-we-need-a-mental-shift-to-overcome-covid-induced-anxiety/</guid>
+      <description>The lockdown and quarantine have taken a psychological toll on many of us. The irony is that humans being social animals longs for companionship, which is exactly what we are sacrificing to survive this pandemic. So what is the answer to all this? What can we do to survive this anxious time?</description>
+    </item>
     
     <item>
       <title>Finding price trends and top neighbourhoods for affordable stays using Seattle Airbnb data</title>

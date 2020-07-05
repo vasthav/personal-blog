@@ -7,10 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2019 Vasthav.</copyright>
-    <lastBuildDate>Sun, 29 Mar 2020 15:17:26 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jul 2020 17:09:44 +0530</lastBuildDate>
     
         <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>book review</title>
+      <link>/tags/book-review/</link>
+      <pubDate>Sun, 05 Jul 2020 17:09:44 +0530</pubDate>
+      
+      <guid>/tags/book-review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>covid</title>
+      <link>/tags/covid/</link>
+      <pubDate>Sun, 05 Jul 2020 17:09:44 +0530</pubDate>
+      
+      <guid>/tags/covid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>COVID-19</title>
+      <link>/tags/covid-19/</link>
+      <pubDate>Sun, 05 Jul 2020 17:09:44 +0530</pubDate>
+      
+      <guid>/tags/covid-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>philosophy</title>
+      <link>/tags/philosophy/</link>
+      <pubDate>Sun, 05 Jul 2020 17:09:44 +0530</pubDate>
+      
+      <guid>/tags/philosophy/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Data Analysis</title>
