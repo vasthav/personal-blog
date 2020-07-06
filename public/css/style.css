@@ -54,3 +54,9 @@ h6 {
   background-color: rgb(241, 224, 188);
   text-decoration: none;
 }
+
+.article.markdown-body blockquote{
+  quotes: none;
+  margin: 0;
+  background-color: rgb(241, 224, 188);
+}
