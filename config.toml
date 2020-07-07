@@ -1,5 +1,6 @@
-baseURL = "https://vasthav.github.io"
-title = "Vasthav"
+baseURL = "https://vasthav.com"
+homepage = "https://vasthav.com/"
+title = "Vasthav's Blog"
 theme = "hugo-notepadium"
 copyright = "©2019 Vasthav."
 

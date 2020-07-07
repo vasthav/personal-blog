@@ -2,9 +2,5 @@
 {{- $paginator := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) -}}
 {{- partial "note-list.html" $paginator -}}
 {{- partial "pagination.html" $paginator -}}
-
-<!-- Adding fonts - Literata and Lora -->
-<link href="https://fonts.googleapis.com/css2?family=Literata:ital@0;1&family=Lora&display=swap" rel="stylesheet">
-
 {{- end -}}
 
