@@ -42,5 +42,24 @@ I build and optimise cool chatbots to serve users with personalized User experie
 I would love to hear from you for any cool projects or collaborations. Contact me.</description>
     </item>
     
+    <item>
+      <title>Privacy Policy</title>
+      <link>/privacy-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/privacy-policy/</guid>
+      <description>Your privacy is important to us. It is vasthav.com&#39;s policy to respect your privacy regarding any information we may collect from you across our website, http://vasthav.com, and other sites we own and operate.
+We only ask for personal information when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent.</description>
+    </item>
+    
+    <item>
+      <title>Terms of Service</title>
+      <link>/terms-of-service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/terms-of-service/</guid>
+      <description>vasthav.com Terms of Service 1. Terms By accessing the website at http://vasthav.com, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site.</description>
+    </item>
+    
   </channel>
 </rss>
