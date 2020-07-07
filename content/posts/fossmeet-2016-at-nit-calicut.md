@@ -13,7 +13,7 @@ license: ""  # CC License
 draft: false
 ---
 
-![Fossmeet 2016 banner](/fossmeet.jpg)
+![Fossmeet 2016 banner](/images/fossmeet.jpg)
 
 Recently I had gone back to my college for convocation and believe me that place has got something that makes you feel right back at home every time you return back. All the old and tall buildings, trees, Rajpath, the long corridors of mechanical workshop, Aryabhatta, SSL (software systems lab), men's hostels, Main Canteen, Mini Canteen, Micro Canteen, Amul Canteen, Library Coffee shop, NLHC, ELHC, MB (Main Building), DB (Department Building) and list goes on. Though the academic experience differs for most of us the hostel and campus experience for all the NITCians undoubtedly will be once in a lifetime experiences. I was fortunate to get some amazing seniors, juniors, professors, colleagues and most importantly some really good friends for life. Now let's get back to the topic. 
 

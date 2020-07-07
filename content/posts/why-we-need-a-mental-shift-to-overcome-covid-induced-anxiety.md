@@ -15,7 +15,7 @@ license: ""  # CC License
 
 _The lockdown and quarantine have taken a psychological toll on many of us. The irony is that humans, being social animals, longs for companionship, which is exactly what we are sacrificing to survive this pandemic. So what is the answer to all this? What can we do to survive this anxious time?_
 
-![intro image](/meaning-image.jpg)
+![intro image](/images/meaning-image.jpg)
 <span>Photo by <a href="https://unsplash.com/@8moments?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Simon Berger</a> on <a href="https://unsplash.com/s/photos/meaning?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
 # Introduction

@@ -20,7 +20,7 @@ As part of the [Udacity - Data Science Nano Degree program](https://www.udacity.
 ## A note on the Data Set
 The Data set I chose for this task was [_Seattle Airbnb Open Data_](https://www.kaggle.com/airbnb/seattle/data) which is an open data set provided by Airbnb. Since 2008, guests and hosts have used Airbnb to travel in a more unique, personalized way. As part of the Airbnb Inside initiative, this dataset describes the listing activity of homestays in Seattle, WA. 
 
-![Living Room image](/SeattleAirBnB/kelsey-dody-mt2QzllH814-unsplash.jpg) 
+![Living Room image](/images/SeattleAirBnB/kelsey-dody-mt2QzllH814-unsplash.jpg) 
 <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@kelseydody?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Kelsey Dody"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Photo by Kelsey Dody on Unsplash</span></a>
 
 #### Content
@@ -38,7 +38,7 @@ This question is relevant for both the business and for the fellow travellers wh
 
 This was pretty straight forward. To answer this I used the calendar data and grouped the data according to date and calculated the mean of the listed property prices. And later plotted on a graph to see the trend. 
 
-![Seattle pricing Graph](/SeattleAirBnB/pricing-graph.png)
+![Seattle pricing Graph](/images/SeattleAirBnB/pricing-graph.png)
 
 Some observations from the graph:
 
@@ -75,8 +75,8 @@ Top 5 neighbourhood in Seattle based on review scores were:
 
 As travellers will be most probably seeing properties on a map before making decisions based on different factors like amenities nearby and places to visit etc. I thought of plotting the areas in a graph and respective properties in a map. An amazing library called "[_Geopandas_](https://geopandas.org/)" came for the rescue. I used the [Seattle City Open Data](https://data-seattlecitygis.opendata.arcgis.com/datasets/seattle-streets) to get the shapefile used for creating the maps used for this task. You can see the plotted map below.
 
-![Top neighbourhood in Seattle based on review scores map](/SeattleAirBnB/top-neighbourhood.png)
-![Top neighbourhood in Seattle based on review scores map Legend](/SeattleAirBnB/top-neighborhood-legend.png)
+![Top neighbourhood in Seattle based on review scores map](/images/SeattleAirBnB/top-neighbourhood.png)
+![Top neighbourhood in Seattle based on review scores map Legend](/images/SeattleAirBnB/top-neighborhood-legend.png)
 
 We can see that southern western Seattle which included neighbourhoods like West Seattle and Delridge is highly rated by customers.
 
@@ -103,13 +103,13 @@ This was a little tricky as we had to use both pricing details from the calendar
 Using geopandas to plot the neighbourhood on the graphs we get the below graphs.
 
 -----------------------------
-![Top 5 costliest neighbourhood in Seattle based map](/SeattleAirBnB/cheapest-neighbourhood.png)
-![Top 5 costliest neighbourhood in Seattle map Legend](/SeattleAirBnB/cheapest-neighborhood-legend.png)
+![Top 5 costliest neighbourhood in Seattle based map](/images/SeattleAirBnB/cheapest-neighbourhood.png)
+![Top 5 costliest neighbourhood in Seattle map Legend](/images/SeattleAirBnB/cheapest-neighborhood-legend.png)
 
 -----------------------------
 
-![Top 5 costliest neighbourhood in Seattle based map](/SeattleAirBnB/top-neighbourhood.png)
-![Top 5 costliest neighbourhood in Seattle map Legend](/SeattleAirBnB/costliest-neighborhood-legend.png)
+![Top 5 costliest neighbourhood in Seattle based map](/images/SeattleAirBnB/top-neighbourhood.png)
+![Top 5 costliest neighbourhood in Seattle map Legend](/images/SeattleAirBnB/costliest-neighborhood-legend.png)
 
 ## Conclusions
 

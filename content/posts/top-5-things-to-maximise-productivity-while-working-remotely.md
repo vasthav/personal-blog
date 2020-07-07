@@ -13,7 +13,7 @@ license: ""  # CC License
 draft: false
 ---
 
-![Top 5 things to do maximize your productivity while working remotely](/remote-lady.jpg)
+![Top 5 things to do maximize your productivity while working remotely](/images/remote-lady.jpg)
 
 With Companies like [GitLab](https://about.gitlab.com/company/culture/all-remote/), [Zapier](https://zapier.com/jobs/), [Automattic](https://automattic.com/about/) leading the way with 100% fully distributed employee base, there is a complete shift happening especially in tech space moving from traditional factory employee style of working that still, a large set of companies are stuck at. 
 
@@ -41,7 +41,9 @@ It is important to regular breaks keep yourself hydrated while working remotely.
 
 
 ## 5. Talk to your team regularly
-> The primary sign of a well-ordered mind is a man's ability to remain in one place and linger in his own company. - Seneca, *[Letters from a stoic.](https://amzn.to/2GO6mhK)*
+> The primary sign of a well-ordered mind is a man's ability to remain in one place and linger in his own company. 
+>
+> -- Seneca, *[Letters from a stoic.](https://amzn.to/2GO6mhK)*
 
 One of the biggest challenge working remotely is the isolation and disconnect that you start to feel after a point in time. This is just human nature. In such points, it's necessary to connect with your team to reconnect and remind yourself that your work is important. What helps is to have regular check-ins and meeting. Voice calls are good, but video calls help a lot. There are so many tools out there both free and paid like Google meet, Skype etc that you can use for this. 
 

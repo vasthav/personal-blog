@@ -13,7 +13,7 @@ license: ""  # CC License
 draft: false
 ---
 
-![Image courtesy - Unsplash](/letter.jpg) 
+![Image courtesy - Unsplash](/images/letter.jpg) 
 
 Dear Vasthav,
 
@@ -23,7 +23,7 @@ Trust your heart for the next couple of months. The crowd favourite route of bio
 
 First job out of college you'll find some amazing new friends. Within the first 6 months, you'll buy your dream bike - Muthu. And Muthu is going to fulfil the part of your heart that you never knew was hollow. Even when people dear to you go out of your life Muthu will be there for you, without exception.
 
-![Muthu](/muthu.JPG)
+![Muthu](/images/muthu.JPG)
 
 Forget about all the infatuations and crushes. You'll fall in love with this amazing person. You'll feel a connection so strong that you will feel like you have known each other from a previous life if something like that exists. It will be like magic. But later you'll let her go out of your life only because you loved her too much. Yes, I know you might be thinking what an idiot? But like the beautiful Patty Smyth sings ["_Baby, sometimes love just ain't enough..._"](https://www.youtube.com/watch?v=qdzbjUWu2VU)
 

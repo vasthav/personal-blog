@@ -6,7 +6,7 @@ single: true  # display as a single page, hide navigation on bottom, like as abo
 draft: false
 ---
 
-{{< figure src="/pro-pic.JPG" height="300px" >}}
+{{< figure src="/images/pro-pic.JPG" height="300px" >}}
 
 # Hello! I am Sreevasthavan. :wave:
 
