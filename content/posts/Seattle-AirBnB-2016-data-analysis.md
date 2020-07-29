@@ -1,7 +1,7 @@
 ---
 title: "Finding price trends and top neighbourhoods for affordable stays using Seattle Airbnb data"
 date: 2020-03-29T15:17:26+05:30
-tags: [Data Analysis]
+tags: [Data Analysis, Udacity Data Science Nano Degree]
 categories: [Article]
 imgs: []
 readingTime: true  # show reading time after article date

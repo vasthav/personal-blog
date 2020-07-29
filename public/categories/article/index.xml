@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2019 Vasthav.</copyright>
-    <lastBuildDate>Sun, 05 Jul 2020 17:09:44 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2020 09:57:25 +0530</lastBuildDate>
     
         <atom:link href="/categories/article/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Udacity Data Science Nano Degree - Starbuck&#39;s Capstone Challenge</title>
+      <link>/posts/udacity-dsnd-starbucks-capstone-project/</link>
+      <pubDate>Mon, 27 Jul 2020 09:57:25 +0530</pubDate>
+      
+      <guid>/posts/udacity-dsnd-starbucks-capstone-project/</guid>
+      <description>Introduction As part of the Udacity - Data Science Nano Degree program I recently completed a task where I had to use a given data set, analyse it and come up with heuristics based recommendations. This blog post will present the final conclusions and recommendations I came up with after the analysis.</description>
+    </item>
     
     <item>
       <title>Why We Need a Mental Shift to Overcome Covid Induced Anxiety</title>
