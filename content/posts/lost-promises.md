@@ -10,7 +10,7 @@ comments: true
 justify: false  # text-align: justify;
 single: false  # display as a single page, hide navigation on bottom, like as about page.
 license: ""  # CC License
-draft: true
+draft: false
 ---
 
 > And these promises broken, 
