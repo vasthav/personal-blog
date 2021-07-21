@@ -8,7 +8,7 @@ printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 # Build the project.
 echo '[INFO] BUILDING PROJECT'
 echo '[INFO] RUNNING COMMAND >>> hugo'
-hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
+hugo -d '../vasthav.github.io/' -v --minify # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Go To Public folder
 echo '[INFO] CHANING DIRECTORY TO PUBLIC'
